@@ -1,0 +1,44 @@
+<!DOC html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="everythingContainer">
+        <div class="time">
+            <h1>
+                <span id="clock"></span>
+            </h1>
+        </div>
+        <div class="login">
+            <form id="loginForm">
+                <input id="loginInput" type="text", placeholder="what is your name?">
+                <input id="loginSubmit" type="submit" value="Enter">
+            </form>
+        </div>
+        <div class="todoContainer">
+            <h3>What to do?</h3>
+            <form class="todoForm">
+                <input type="text"id="todoBlank" placeholder="What to do?">
+                <input type="submit" id="todoInputButton" value="Add">
+            </form>
+            <div class="inputList">
+                <ul></ul>
+            </div>
+        </div>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <script src="js/wallpaper.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
